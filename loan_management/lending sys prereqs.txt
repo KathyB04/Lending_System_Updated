@@ -1,0 +1,54 @@
+Prerequisites
+-Python
+-Pip
+-Virtualenv
+-Django
+- SQLite3
+
+#Python
+-Make sure you're using python 3.7.4 
+https://www.python.org/downloads/release/python-374/ 
+----
+#Pip
+-Make sure to download and install the latest pip version
+-pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org 
+otherwise:
+To install pip:
+Download get-pip.py to a folder on your computer. Open a command prompt window and navigate to the folder containing get-pip.py. Then run python get-pip.py. 
+-----
+#Virtualenv
+Install Virtualenv:
+	pip install virtualenv
+Create Virtualenv
+	virtualenv [any name]_env 
+Run Virtualenv
+	[name]_env\Scripts\activate
+---
+#Django
+Install Django inside virtualenv
+	pip install Django==2.2
+
+---
+#SQLite3 
+Download installer
+https://sqlitebrowser.org/dl/ 
+opt for standard installer 64-bit
+--- 
+
+cd to file location of project 
+run the following codes:
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+----
+open browser and go to localhost or just copy the url given in the cmd
+
+---
+ayun lang let me know kung may tanong kayo
+kayo na bahala sa frontend i used bootstrap (enhance niyo nalang, u can use html or css din)
+kayo na rin bahala sa stored procedures di ko alam yun. di ako gumagawa ng lab.
+
+-Engr. Katherine Baltazar Ganda
+
+	
